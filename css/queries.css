@@ -222,7 +222,23 @@
         border-right: none;
     }
 
+    #hotels .leftcol {
+        padding: 0 15px;
+        margin-bottom: 15px;
+        border-right: none;
+    }
+
+    .events .midcol {
+        padding: 0 15px;
+        margin-bottom: 15px;
+        border-right: none;
+    }
+
     .events .rightcol {
+        padding: 0 20px;
+    }
+
+    #hotels .rightcol {
         padding: 0 20px;
     }
     
