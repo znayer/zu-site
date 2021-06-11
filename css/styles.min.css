@@ -344,7 +344,7 @@ section .header {
 }
 .hero {
     min-height: 750px;
-    background: url("../img/zu2.png") center center;
+    background: url("../img/zu3.png") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -990,7 +990,7 @@ body.modal-open {
   text-transform: uppercase;
   color: #fff;
   border: 1px solid #fff;
-  margin: 50px 0 0 0;
+  margin: 0;
   background-color: transparent;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -1003,9 +1003,12 @@ body.modal-open {
   height: 85%;
   width: 85%;
   position: absolute;
-  top: -20%;
-  left: 8%;
+  margin: 5% 0 0 7.5%;
+  top: 0;
+  left: 0;
+  vertical-align: middle;
   padding: 70px;
+
 }
 
 .hovereffect:hover a.info {
