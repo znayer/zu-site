@@ -1023,8 +1023,8 @@ body.modal-open {
 /* Hotel Stuff + Extras */
 
 .hotelbox {
-    max-height: 200px;
-    max-width: 350px;
+    height: 200px;
+    width: 350px;
 }
 
 .vegas {
