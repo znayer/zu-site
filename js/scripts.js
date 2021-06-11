@@ -212,7 +212,7 @@ $(document).ready(function () {
             end: new Date('Jan 01, 2021 00:00'),
 
             // Event Address
-            address: 'Houston, TX, Las Vegas, NV',
+            address: 'Houston, TX & Las Vegas, NV',
 
             // Event Description
             description: "We can't wait to see you on our big day!"
@@ -257,7 +257,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
+    var location = {lat: 36.111515, lng: -115.175518};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
