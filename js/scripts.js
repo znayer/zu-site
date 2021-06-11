@@ -1,5 +1,20 @@
 $(document).ready(function () {
 
+    /********************** Hotel Buttons **********************/
+
+    $('.btn-houston').click(function(){
+        $('.btn-houston').addClass('active');
+        $('.btn-vegas').removeClass('active');
+        $('.vegas').hide();
+        $('.houston').show();
+    });
+    $('.btn-vegas').click(function(){
+        $('.btn-vegas').addClass('active');
+        $('.btn-houston').removeClass('active');
+        $('.houston').hide();
+        $('.vegas').show();
+    });
+
     /***************** Waypoints ******************/
 
     $('.wp1').waypoint(function () {

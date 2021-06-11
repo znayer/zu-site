@@ -1017,8 +1017,14 @@ body.modal-open {
   background-color: rgba(0,0,0,0.4);
 }
 
-/* Hotel Stuff */
+/* Hotel Stuff + Extras */
 
-#hotelVegas {
+.vegas {
 	display: none;
+}
+
+.btn:active, .btn.active {
+	background-color: #e8ca6f;
+	color: #fff;
+	box-shadow: none;
 }
