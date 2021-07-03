@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open + Sans:300italic, 400italic, 600italic, 700italic, 800italic, 400, 300, 600, 700, 800);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400, 300, 400italic, 300italic, 700, 700italic);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400, 300, 700);
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
 p {
     font-size: 15px;
     line-height: 29px;
@@ -14,6 +15,10 @@ h2 {
     font-size: 40px;
     font-weight: 300;
     color: #3d4351;
+}
+.title {
+    font-family: "Tangerine";
+    font-size: 80px;
 }
 h3 {
     color: #3d4351;
@@ -86,6 +91,7 @@ h5 {
 .btn-margin-right {
     margin-right: 20px;
 }
+
 section.intro,
 section.features-extra,
 section.rsvp {
