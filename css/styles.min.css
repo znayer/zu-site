@@ -1037,6 +1037,161 @@ body.modal-open {
   background-color: rgba(0,0,0,0.4);
 }
 
+
+ /*Hovereffect 2 */
+
+ .hovereffect-rsvp {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.hovereffect-rsvp .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    padding: 1em;
+    height: 4.75em;
+    background: #e8ca6f;
+    color: #3c4a50;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+    /*visibility: hidden;*/
+
+}
+
+.hovereffect-rsvp img {
+    display: block;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+.hovereffect-rsvp:hover img {
+-webkit-transform: translate3d(0,-10%,0);
+    transform: translate3d(0,-10%,0);
+}
+
+.hovereffect-rsvp h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    /*float: left;*/
+    margin: 0px;
+    display: inline-block;
+}
+
+.hovereffect-rsvp a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 50px 0 0 0;
+    background-color: transparent;
+}
+.hovereffect-rsvp a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+
+.hovereffect-rsvp p.icon-links a {
+    float: right;
+    color: #3c4a50;
+    font-size: 1.4em;
+}
+
+.hovereffect-rsvp:hover p.icon-links a:hover,
+.hovereffect-rsvp:hover p.icon-links a:focus {
+    color: #252d31;
+}
+
+.hovereffect-rsvp h2,
+.hovereffect-rsvp p.icon-links a {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,200%,0);
+    transform: translate3d(0,200%,0);
+    visibility: visible;
+}
+
+.hovereffect-rsvp p.icon-links a span:before {
+    display: inline-block;
+    padding: 8px 10px;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.hovereffect-rsvp:hover .overlay,
+.hovereffect-rsvp:hover h2,
+.hovereffect-rsvp:hover p.icon-links a {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.hovereffect-rsvp:hover h2 {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+}
+
+.hovereffect-rsvp:hover p.icon-links a:nth-child(3) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.hovereffect-rsvp:hover p.icon-links a:nth-child(2) {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.hovereffect-rsvp:hover p.icon-links a:first-child {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.btn-info {
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 17px;
+    background: transparent;
+
+    text-decoration: none;
+    padding: 7px 14px;
+    border: 1px solid #fff;
+
+    border-radius: 0;
+    
+}
+
+.btn-info:hover {
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 17px;
+    background: rgba(0,0,0,.6);
+    text-decoration: none;
+    padding: 7px 14px;
+    border: 1px solid #fff;
+    border-radius: 0;
+    
+}
+
 /* Hotel Stuff + Extras */
 
 .hotelbox {
@@ -1093,4 +1248,15 @@ body.modal-open {
 
 .checkbox label input[type="checkbox"]:disabled+.cr {
   opacity: .5;
+}
+
+.centered {
+   text-align: center;
+   font-size: 0;
+}
+.centered > div {
+   float: none;
+   display: inline-block;
+   text-align: left;
+   font-size: 13px;
 }

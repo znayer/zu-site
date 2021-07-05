@@ -295,7 +295,8 @@
                 <h3 class="header">Where To Stay</h3>
             </div>
         </div>
-        <div class="row">
+        <div class="row centered">
+            <center>
             <div class="col-md-12 col-sm-12 col-xs-12 houston">
                 <div class="wp3">
                     <p style="font-size: 20px; font-family: 'Cinzel'"><strong>Houston</strong></p>
@@ -336,7 +337,7 @@
                 <div class="wp4">
                     <p style="font-size: 20px; font-family: 'Cinzel'"><strong>Las Vegas</strong></p>
 
-                    <div class="row">
+                    <div class="row centered">
                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="hovereffect">
                                 <img class="hotelbox" src="img/vdara.jpg" alt="">
@@ -369,6 +370,7 @@
                 </div>
 
             </div>
+        </center>
         </div>
     </div>
 
@@ -576,84 +578,159 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <div id="rsvp-form-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <form id="rsvp-form" class="rsvp-form"
+                              action=""
+                              method="POST">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-input-group">
+                                        <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                             placeholder="Your email"
+                                                                             required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-input-group">
+                                        <i class="fa fa-user"></i><input name="name" class=""
+                                                                         placeholder="Your name"
+                                                                         required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-input-group">
+                                        <i class="fa fa-users"></i><input type="number" name="guests" class="" min="0"
+                                                                          max="4"
+                                                                          placeholder="How many in your party"
+                                                                          required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-input-group">
+                                        <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                                                        class="" min="0"
+                                                                        placeholder="Invite code"
+                                                                        required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12" style="margin: 5px 0 10px 0">
+                                        I am attending the (check all that apply): 
+                                        <br>
+                                        <div style="display: inline-block;">
+                                            <div class="checkbox" style="display: inline-block;">
+                                                <label style="font-size: 1em">
+                                                    <input type="checkbox" name="mehndi" value="yes">
+                                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                                    Mehndi
+                                                </label>
+                                            </div>
+                                            <div class="checkbox" style="display: inline-block;">
+                                                <label style="font-size: 1em">
+                                                    <input type="checkbox" name="wedding" value="yes">
+                                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                                    Wedding
+                                                </label>
+                                            </div>
+                                            <div class="checkbox" style="display: inline-block;">
+                                                <label style="font-size: 1em">
+                                                    <input type="checkbox" name="valima" value="yes">
+                                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                                    Valima
+                                                </label>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12" id="alert-wrapper"></div>
+                            </div>
+                            <button class="btn-fill rsvp-btn">
+                                Yes,
+                                that's me!
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>What are you waiting for?</h3>
-                <p>We would greatly appreciate if you could RSVP before 1st of November '20</p>
-                <form id="rsvp-form" class="rsvp-form"
-                      action=""
-                      method="POST">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
-                                                                 required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="guests" class="" min="0"
-                                                                  max="4"
-                                                                  placeholder="How many in your party"
-                                                                  required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
-                                                                class="" min="0"
-                                                                placeholder="Invite code"
-                                                                required>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12" style="margin: 5px 0 10px 0">
-                                I am attending the (check all that apply): 
-                                <br>
-                                <div style="display: inline-block;">
-                                    <div class="checkbox" style="display: inline-block;">
-                                        <label style="font-size: 1em">
-                                            <input type="checkbox" name="mehndi" value="yes">
-                                            <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                            Mehndi
-                                        </label>
-                                    </div>
-                                    <div class="checkbox" style="display: inline-block;">
-                                        <label style="font-size: 1em">
-                                            <input type="checkbox" name="wedding" value="yes">
-                                            <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                            Wedding
-                                        </label>
-                                    </div>
-                                    <div class="checkbox" style="display: inline-block;">
-                                        <label style="font-size: 1em">
-                                            <input type="checkbox" name="valima" value="yes">
-                                            <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                            Valima
-                                        </label>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" id="alert-wrapper"></div>
-                    </div>
-                    <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
-                    </button>
-                </form>
+                <p>We would greatly appreciate if you could RSVP before 1st of November '21</p>
+                <!-- <button data-toggle="modal" data-target="#rsvp-form-modal">Test</button> -->
             </div>
+        </div>
+
+        <div class="row centered">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect-rsvp">
+                    <img class="img-responsive" src="img/rsvpM.JPG" alt="">
+                        <div class="overlay">
+                            <button class="info btn btn-info" data-toggle="modal" data-target="#rsvp-form-modal">RSVP Now</button>
+                            <!-- <p class="icon-links">
+                                <a href="#">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                            </p> -->
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect-rsvp">
+                    <img class="img-responsive" src="img/rsvpS.JPG" alt="">
+                        <div class="overlay">
+                            <button class="info btn btn-info" data-toggle="modal" data-target="#rsvp-form-modal">RSVP Now</button>
+                            <!-- <p class="icon-links">
+                                <a href="#">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                            </p> -->
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect-rsvp">
+                    <img class="img-responsive" src="img/rsvpW.JPG" alt="">
+                        <div class="overlay">
+                            <button class="info btn btn-info" data-toggle="modal" data-target="#rsvp-form-modal">RSVP Now</button>
+                            <!-- <p class="icon-links">
+                                <a href="#">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                            </p> -->
+                        </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
