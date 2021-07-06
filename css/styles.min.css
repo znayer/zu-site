@@ -1265,3 +1265,14 @@ body.modal-open {
    text-align: left;
    font-size: 13px;
 }
+
+.page-divider {
+    width: 100%;
+    height: 50px;
+    background-image: url("../img/68.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
