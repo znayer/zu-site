@@ -898,6 +898,7 @@ header .member-actions {
     -webkit-border-radius: 6px;
     border-radius: 6px;
     border: none;
+    color: #000;
 }
 .rsvp .rsvp-form .form-input-group input::-webkit-input-placeholder {
     color: #bcc1c3;
