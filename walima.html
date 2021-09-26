@@ -467,14 +467,14 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    <div id="rsvp-form-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div id="rsvp-form-modal-W" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                     </button>
                     <div class="section-padding">
-                        <form id="rsvp-form" class="rsvp-form"
+                        <form id="rsvp-form-W" class="rsvp-form"
                               action=""
                               method="POST">
                             <div class="row">
@@ -497,51 +497,16 @@
                                 <div class="col-md-offset-3 col-md-6 col-sm-6">
                                     <div class="form-input-group">
                                         <i class="fa fa-users"></i><input type="number" name="guests" class="" min="0"
-                                                                          max="8"
+                                                                          max="4"
                                                                           placeholder="How many in your party"
                                                                           required>
                                     </div>
                                 </div>
-                                <!-- <div class="col-md-6 col-sm-6">
-                                    <div class="form-input-group">
-                                        <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
-                                                                        class="" min="0"
-                                                                        placeholder="Invite code"
-                                                                        required>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="col-md-12 col-sm-12" style="margin: 5px 0 10px 0">
-                                        I am attending the (check all that apply): 
-                                        <br>
-                                        <div style="display: inline-block;">
-                                            <div class="checkbox" style="display: inline-block;">
-                                                <label style="font-size: 1em">
-                                                    <input type="checkbox" name="mehndi" value="yes">
-                                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                                    Mehndi
-                                                </label>
-                                            </div>
-                                            <div class="checkbox" style="display: inline-block;">
-                                                <label style="font-size: 1em">
-                                                    <input type="checkbox" name="wedding" value="yes">
-                                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                                    Wedding
-                                                </label>
-                                            </div>
-                                            <div class="checkbox" style="display: inline-block;">
-                                                <label style="font-size: 1em">
-                                                    <input type="checkbox" name="valima" value="yes">
-                                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                                    Valima
-                                                </label>
-                                            </div>
-                                        </div>
-                                </div> -->
                             </div>
                             <div class="row">
-                                <div class="col-md-12" id="alert-wrapper"></div>
+                                <div class="col-md-12" id="alert-wrapper-W"></div>
                             </div>
-                            <button class="btn-fill rsvp-btn">
+                            <button class="btn-fill rsvp-btn" style="background-color: #337ab7;">
                                 Yes,
                                 that's me!
                             </button>
@@ -566,18 +531,7 @@
                 <div class="hovereffect-rsvp">
                     <img class="img-responsive" src="img/rsvpW.JPG" alt="">
                         <div class="overlay">
-                            <button class="info btn btn-info" data-toggle="modal" data-target="#rsvp-form-modal">RSVP Now</button>
-                            <!-- <p class="icon-links">
-                                <a href="#">
-                                    <span class="fa fa-twitter"></span>
-                                </a>
-                                <a href="#">
-                                    <span class="fa fa-facebook"></span>
-                                </a>
-                                <a href="#">
-                                    <span class="fa fa-instagram"></span>
-                                </a>
-                            </p> -->
+                            <button class="info btn btn-info" data-toggle="modal" data-target="#rsvp-form-modal-W">RSVP Now</button>
                         </div>
                 </div>
             </div>
