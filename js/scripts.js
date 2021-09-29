@@ -231,7 +231,7 @@ $(document).ready(function () {
 
         $('#alert-wrapper-M').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        $.post('https://script.google.com/macros/s/AKfycbzJn9znrkSp3ZV7th4WptHaC3GXB97WC7SsqE2hEhjJqpaVzbu7WDsn9gz1q_i6eHzn/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbzA6VUEqTa5pzU7lKJlKVjB_kZHOJFCOZADmwU9Ure8uzul5qUcHcW6wnzs1a_c61g4/exec', data)
             .done(function (data) {
                 console.log('Sent');
                 console.log(data);
@@ -257,7 +257,7 @@ $(document).ready(function () {
 
         $('#alert-wrapper-S').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        $.post('https://script.google.com/macros/s/AKfycbzJn9znrkSp3ZV7th4WptHaC3GXB97WC7SsqE2hEhjJqpaVzbu7WDsn9gz1q_i6eHzn/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbzA6VUEqTa5pzU7lKJlKVjB_kZHOJFCOZADmwU9Ure8uzul5qUcHcW6wnzs1a_c61g4/exec', data)
             .done(function (data) {
                 console.log('Sent');
                 console.log(data);
@@ -283,7 +283,7 @@ $(document).ready(function () {
 
         $('#alert-wrapper-W').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        $.post('https://script.google.com/macros/s/AKfycbzJn9znrkSp3ZV7th4WptHaC3GXB97WC7SsqE2hEhjJqpaVzbu7WDsn9gz1q_i6eHzn/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbzA6VUEqTa5pzU7lKJlKVjB_kZHOJFCOZADmwU9Ure8uzul5qUcHcW6wnzs1a_c61g4/exec', data)
             .done(function (data) {
                 console.log('Sent');
                 console.log(data);
